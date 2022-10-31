@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Sidebar from '../components/Sidebar'
 
 
 export default function Home() {
@@ -6,11 +7,23 @@ export default function Home() {
     <div className="">
       <Head>
         <title>Twitter 3.0</title>
+        <link rel='icon' href='https://img.icons8.com/arcade/64/000000/twitter.png'/>
       </Head>
 
-      <main className="">
-          <h1>hello world</h1>
+      <main className='flex min-h-screen max-w-7xl mx-auto'>
+
+      {/* Sidebar */}
+        <Sidebar/>
+      {/* Feed */}
+
+
+      {/* widgets */}
+
+
+      {/* Modal */}
+
       </main>
+
     </div>
   )
 }

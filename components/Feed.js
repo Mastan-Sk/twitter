@@ -9,7 +9,7 @@ export default function Feed() {
       id : "1",
       name : "Pearl V Puri",
       username :"pearlvpuri",
-      img : "https://images.unsplash.com/photo-1516381093400-a0fecb601de2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9zdHN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      img : "https://english.cdn.zeenews.com/sites/default/files/styles/zm_700x400/public/2021/06/06/941591-untitled-design-2021-06-06t141032.871.jpg",
       userImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ejWfXr09lHJza73TAW6HaLAOn4NQKuQR5w&usqp=CAU",
       text : "The nature",
       timestamp : "35 minutes ago"
@@ -18,7 +18,7 @@ export default function Feed() {
       id : "2",
       name : "Pearl V Puri",
       username :"pearlvpuri",
-      img : "https://images.unsplash.com/photo-1599331516721-6469a02d81b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHBvc3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      img : "https://scontent.fhyd1-5.fna.fbcdn.net/v/t1.6435-9/47005447_1822907737808558_6823498419571523584_n.jpg?stp=cp0_dst-jpg_e15_p403x403_q65&_nc_cat=111&ccb=1-7&_nc_sid=9e2e56&_nc_ohc=Rexp1MM93pwAX-ph9LK&_nc_ht=scontent.fhyd1-5.fna&oh=00_AfBgGyCiFxR1O-ZtMV9PySHafxevHc_UbEXxu-4O712SpA&oe=6386A47B",
       userImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ejWfXr09lHJza73TAW6HaLAOn4NQKuQR5w&usqp=CAU",
       text : "Good Feeling",
       timestamp : "8 hours ago"
@@ -27,7 +27,7 @@ export default function Feed() {
       id : "3",
       name : "Pearl V Puri",
       username :"pearlvpuri",
-      img : "https://images.unsplash.com/photo-1630253158595-736bc9961e5b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fHBvc3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      img : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTdH5d_I-3lzVLo0Xya74MRMuq5rNZBCGXa-oVtWmyBoVqtbIMhDaMgjrdZCLfwfn9oH8&usqp=CAU",
       userImg : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ejWfXr09lHJza73TAW6HaLAOn4NQKuQR5w&usqp=CAU",
       text : "nice",
       timestamp : "21 hours ago"

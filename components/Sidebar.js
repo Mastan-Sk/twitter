@@ -1,7 +1,7 @@
 import Image from "next/image"
 import SidebarMenuItem from "./SidebarMenuItem"
 import {DotsHorizontalIcon, HomeIcon} from "@heroicons/react/solid"
-import {HashtagIcon,BellIcon,InboxIcon,BookmarkIcon,ClipboardIcon,UserIcon,DotsCircleHorizontalIcon} from "@heroicons/react/outline"
+import {HashtagIcon,BellIcon,InboxIcon,BookmarkIcon,ClipboardIcon,UserIcon,DotsCircleHorizontalIcon, VideoCameraIcon} from "@heroicons/react/outline"
 export default function Sidebar() {
   return (
     <div className="hidden sm:flex flex-col p-2 xl:items-start fixed h-full">
@@ -22,6 +22,7 @@ export default function Sidebar() {
             <SidebarMenuItem text="Lists" Icon={ClipboardIcon}/>
             <SidebarMenuItem text="Profile" Icon={UserIcon}/>
             <SidebarMenuItem text="More" Icon={DotsCircleHorizontalIcon}/>
+            <SidebarMenuItem text="Live Tweeting" Icon = {VideoCameraIcon} />
         </div>
 
         {/* buttons */}

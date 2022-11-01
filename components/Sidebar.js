@@ -32,7 +32,7 @@ export default function Sidebar() {
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ejWfXr09lHJza73TAW6HaLAOn4NQKuQR5w&usqp=CAU" alt=""
                 className="h-10 w-10 rounded-full xl:mr-2"/>
             <div className="leading-5  hidden xl:inline">
-                <h4 className="font-bold">pearl v puri</h4>
+                <h4 className="font-bold">Pearl V Puri</h4>
                 <p className="">@pearlvpuri</p>
             </div>
             <DotsHorizontalIcon className="h-5 xl:ml-8 hidden xl:inline"/>

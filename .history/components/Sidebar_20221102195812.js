@@ -11,7 +11,7 @@ import {
   DotsCircleHorizontalIcon,
   VideoCameraIcon,
 } from "@heroicons/react/outline";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signIn,signOut } from "next-auth/react";
 
 export default function Sidebar() {
   const { data: session, status } = useSession();
@@ -54,10 +54,10 @@ export default function Sidebar() {
           {/* mini profiles */}
           <div className="hoverEffect text-gray-700 flex items-center justify-center xl:justify-start mt-auto">
             <img
-              src={session.user.image}
+              src= "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1ejWfXr09lHJza73TAW6HaLAOn4NQKuQR5w&usqp=CAU"
               alt=""
               className="h-10 w-10 rounded-full xl:mr-2"
-              onClick={() => signOut()}
+                onClick={()=>signOut()}
             />
             <div className="leading-5  hidden xl:inline">
               <h4 className="font-bold">{session.user.name}</h4>

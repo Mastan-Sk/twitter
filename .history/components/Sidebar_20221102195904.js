@@ -11,7 +11,7 @@ import {
   DotsCircleHorizontalIcon,
   VideoCameraIcon,
 } from "@heroicons/react/outline";
-import { useSession, signIn, signOut } from "next-auth/react";
+import { useSession, signIn,signOut } from "next-auth/react";
 
 export default function Sidebar() {
   const { data: session, status } = useSession();
@@ -57,7 +57,7 @@ export default function Sidebar() {
               src={session.user.image}
               alt=""
               className="h-10 w-10 rounded-full xl:mr-2"
-              onClick={() => signOut()}
+                onClick={()=>signOut()}
             />
             <div className="leading-5  hidden xl:inline">
               <h4 className="font-bold">{session.user.name}</h4>

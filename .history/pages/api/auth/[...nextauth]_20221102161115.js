@@ -10,10 +10,6 @@ export const authOptions = {
     }),
     // ...add more providers here
   ],
-
-  pages : {
-    signin : "/auth/signin"
-  }
 }
 
 export default NextAuth(authOptions)
